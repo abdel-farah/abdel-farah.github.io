@@ -39,6 +39,76 @@ li a:hover{
     background-color:#ffffff;
     position:absolute;
     top:0;
+    height: 50px;
     bottom:0;
     left:115px;
 }
+.container{
+	display: flex;
+
+
+}
+.container div{
+	border: 1px #ccc solid;
+	height: 400px;
+	width: 700px;
+	text-align: left;
+}
+
+.news{
+	background-image: url("https://i.cbc.ca/1.4989287.1548437422!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/basketball-nba-tor-atl.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition-duration: .5s
+	tr
+
+
+}
+
+.news h1{
+	padding-top: 330px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.newsdiv{
+    display: block;
+    height: 100x%;
+    width: 100%;
+    text-decoration: none;
+   	transition-duration: .5s;
+   	transition-property: opacity;
+
+}
+.news a:hover{
+	opacity: 0.5;	
+}	
+
+.roster{
+	background-image: url("https://www.raptorsrepublic.com/wp-content/uploads/2018/02/Lowry2-1000x600.jpg");
+	background-size: 100% 100%;
+	
+
+}
+.roster h1{
+	padding-top: 330px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.rosterdiv{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.container2{	
+	display: flex;
+	background-color: #d9d9d9;
+	border: 1px, #ccc, solid;
+	padding-bottom: 1000px;
+
+
+}
+
