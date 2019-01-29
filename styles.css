@@ -127,7 +127,7 @@ li a:hover{
 	transform: scale(1.02);
 }
 .mavstext{
-	flex: 1;
+	flex: 2;
 }
 .mavsimage img{
 	max-height: 100%;
@@ -154,7 +154,7 @@ li a:hover{
 }
 
 .houtext{
-	flex: 1;
+	flex: 2;
 }
 .houimage img{
 	max-height: 100%;
@@ -177,7 +177,7 @@ li a:hover{
 	transform: scale(1.02);
 }
 .pactext{
-	flex: 1;
+	flex: 2;
 }
 .pacimage img{
 	max-height: 100%;
@@ -201,7 +201,7 @@ li a:hover{
 	transform: scale(1.02);
 }
 .kingtext{
-		flex: 1;
+		flex: 2;
 }
 .kingimage img{
 	max-height: 100%;
