@@ -133,6 +133,7 @@ li a:hover{
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
+	margin-left: auto;
 	flex: 1;
 }
 
@@ -158,6 +159,7 @@ li a:hover{
 .houimage img{
 	max-height: 100%;
 	max-width: 100%;
+	margin-left: auto;
 	object-fit: contain;
 	flex: 1;
 }
@@ -180,6 +182,7 @@ li a:hover{
 .pacimage img{
 	max-height: 100%;
 	max-width: 100%;
+	margin-left: auto;
 	object-fit: contain;
 	flex: 1;
 }
@@ -203,6 +206,7 @@ li a:hover{
 .kingimage img{
 	max-height: 100%;
 	max-width: 100%;
+	margin-left: auto;
 	object-fit: contain;
 	float: right;
 }
