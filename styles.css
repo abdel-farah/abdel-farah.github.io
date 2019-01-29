@@ -133,6 +133,7 @@ li a:hover{
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
+	flex: 1;
 }
 
 .houston{	
@@ -158,6 +159,7 @@ li a:hover{
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
+	flex: 1;
 }
 
 .pacers{	
@@ -179,6 +181,7 @@ li a:hover{
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
+	flex: 1;
 }
 
 .kings{	
@@ -201,6 +204,7 @@ li a:hover{
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
+	flex: 1;
 }
 .schedulecontainer {
 	border: 1px #ccc solid;
