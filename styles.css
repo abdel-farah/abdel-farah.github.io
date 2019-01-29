@@ -108,7 +108,77 @@ li a:hover{
 	background-color: #d9d9d9;
 	border: 1px, #ccc, solid;
 	padding-bottom: 1000px;
+	font-family: 'Aleo', serif;
 
 
+}
+
+.mavericks{	
+	font-family: 'Aleo', serif;
+	border: 1px #ccc solid;
+	display: flex;
+	height: 200px;
+	
+}
+.mavstext{
+	flex: 1;
+}
+.mavsimage img{
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.houston{	
+	font-family: 'Aleo', serif;
+	border: 1px #ccc solid;
+	display: flex;
+	height: 200px;
+	background-color: #D3D3D3;
+	border-top: none;
+	
+}
+.houtext{
+	flex: 1;
+}
+.houimage img{
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.pacers{	
+	font-family: 'Aleo', serif;
+	border: 1px #ccc solid;
+	display: flex;
+	height: 200px;
+	
+}
+.pactext{
+	flex: 1;
+}
+.pacimage img{
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.kings{	
+	font-family: 'Aleo', serif;
+	border: 1px #ccc solid;
+	display: flex;
+	height: 200px;
+	background-color: #D3D3D3;
+	border-top: none;
+	
+}
+.kingtext{
+	flex: 1;
+}
+.kingimage img{
+	max-height: 100%;
+	max-width: 100%;
+	padding-left: 200px;
+	object-fit: contain;
 }
 
