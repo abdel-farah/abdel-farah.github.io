@@ -51,7 +51,7 @@ li a:hover{
 .container div{
 	border: 1px #ccc solid;
 	height: 400px;
-	width: 700px;
+	width: 638.5px;
 	text-align: left;
 }
 
@@ -60,7 +60,7 @@ li a:hover{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	transition-duration: .5s
-	tr
+
 
 
 }
@@ -71,18 +71,15 @@ li a:hover{
 	color: #ffffff;
 }
 
-.newsdiv{
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-   	transition-duration: .5s;
-   	transition-property: opacity;
-
+.newslink{	
+	transition-duration: .5s;
+	transition-property: opacity;
 }
-.news a:hover{
-	opacity: 0.5;	
-}	
+.newslink:hover{
+	opacity: .7;
+}
+
+	
 
 .roster{
 	background-image: url("https://www.raptorsrepublic.com/wp-content/uploads/2018/02/Lowry2-1000x600.jpg");
@@ -96,11 +93,13 @@ li a:hover{
 	color: #ffffff;
 }
 
-.rosterdiv{
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
+.rosterlink{
+	transition-duration: .5s;
+	transition-property: opacity;
+}
+
+.rosterlink:hover{
+	opacity: .7;
 }
 
 .container2{	
@@ -178,7 +177,6 @@ li a:hover{
 .kingimage img{
 	max-height: 100%;
 	max-width: 100%;
-	padding-left: 200px;
 	object-fit: contain;
 }
 
