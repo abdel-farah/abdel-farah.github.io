@@ -133,12 +133,13 @@ li a:hover{
 .mavsimage{
 	flex: 1;
 	object-fit:contain;
+
 }
 .mavsimage img{
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
-	margin-left: auto;
+
 }
 .houston{	
 	font-family: 'Aleo', serif;
@@ -159,12 +160,15 @@ li a:hover{
 .houtext{
 	flex: 2;
 }
+.houimage{
+	flex: 1;
+	object-fit:contain;
+}
 .houimage img{
 	max-height: 100%;
 	max-width: 100%;
 	margin-left: auto;
 	object-fit: contain;
-	flex: 1;
 }
 
 .pacers{	
@@ -181,6 +185,10 @@ li a:hover{
 }
 .pactext{
 	flex: 2;
+}
+.pacimage{
+	flex: 1;
+	object-fit:contain;
 }
 .pacimage img{
 	max-height: 100%;
@@ -206,12 +214,15 @@ li a:hover{
 .kingtext{
 		flex: 2;
 }
+.kingimage{
+	flex: 1;
+	object-fit:contain;
+}
 .kingimage img{
 	max-height: 100%;
 	max-width: 100%;
 	margin-left: auto;
 	object-fit: contain;
-	float: right;
 }
 .schedulecontainer {
 	border: 1px #ccc solid;
