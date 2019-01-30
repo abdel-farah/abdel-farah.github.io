@@ -46,8 +46,6 @@ li a:hover{
     left:115px;
 }
 .container{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 
 
@@ -63,9 +61,7 @@ li a:hover{
 	background-image: url("https://i.cbc.ca/1.4989287.1548437422!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/basketball-nba-tor-atl.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	-webkit-transition-duration: .5s;
-	     -o-transition-duration: .5s;
-	        transition-duration: .5s
+	transition-duration: .5s
 
 
 
@@ -78,11 +74,7 @@ li a:hover{
 }
 
 .newslink{	
-	-webkit-transition-duration: .5s;	
-	     -o-transition-duration: .5s;	
-	        transition-duration: .5s;
-	-webkit-transition-property: opacity;
-	-o-transition-property: opacity;
+	transition-duration: .5s;
 	transition-property: opacity;
 }
 .newslink:hover{
@@ -104,11 +96,7 @@ li a:hover{
 }
 
 .rosterlink{
-	-webkit-transition-duration: .5s;
-	     -o-transition-duration: .5s;
-	        transition-duration: .5s;
-	-webkit-transition-property: opacity;
-	-o-transition-property: opacity;
+	transition-duration: .5s;
 	transition-property: opacity;
 }
 
@@ -117,8 +105,6 @@ li a:hover{
 }
 
 .container2{	
-	display: -webkit-box;	
-	display: -ms-flexbox;	
 	display: flex;
 	background-color: #d9d9d9;
 	border: 1px, #ccc, solid;
@@ -131,174 +117,116 @@ li a:hover{
 .mavericks{	
 	
 	font-family: 'Aleo', serif;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	height: 200px;
 	max-width: 100%;
-	-webkit-transition: -webkit-transform .2s;
-	transition: -webkit-transform .2s;
-	-o-transition: transform .2s;
 	transition: transform .2s;
-	transition: transform .2s, -webkit-transform .2s;
 	padding-left: 13px;
 }
 .mavericks:hover{
-	-webkit-transform: scale(1.02);
-	    -ms-transform: scale(1.02);
-	        transform: scale(1.02);
+	transform: scale(1.02);
 }
 .mavstext{
-	-webkit-box-flex: 2;
-	    -ms-flex: 2;
-	        flex: 2;
-	-o-object-fit: contain;
-	   object-fit: contain;
+	flex: 2;
+	object-fit: contain;
 }
 
 .mavsimage img{
 	max-height: 100%;
 	max-width: 100%;
-	-o-object-fit: contain;
-	   object-fit: contain;
+	object-fit: contain;
 	margin-left: auto;
-	-webkit-box-flex: 1;
-	    -ms-flex: 1;
-	        flex: 1;
+	flex: 1;
 }
 .houston{	
 	font-family: 'Aleo', serif;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	height: 200px;
 	max-width: 100%;
 	background-color: #D3D3D3;
 	border-top: none;
-	-webkit-transition: -webkit-transform .2s;
-	transition: -webkit-transform .2s;
-	-o-transition: transform .2s;
 	transition: transform .2s;
-	transition: transform .2s, -webkit-transform .2s;
 	padding-left: 13px;
 
 	
 }
 .houston:hover{
-	-webkit-transform: scale(1.02);
-	    -ms-transform: scale(1.02);
-	        transform: scale(1.02);
+	transform: scale(1.02);
 }
 
 .houtext{
-	-webkit-box-flex: 2;
-	    -ms-flex: 2;
-	        flex: 2;
+	flex: 2;
 }
 .houimage img{
 	max-height: 100%;
 	max-width: 100%;
 	margin-left: auto;
-	-o-object-fit: contain;
-	   object-fit: contain;
-	-webkit-box-flex: 1;
-	    -ms-flex: 1;
-	        flex: 1;
+	object-fit: contain;
+	flex: 1;
 }
 
 .pacers{	
 	font-family: 'Aleo', serif;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	height: 200px;
 	max-width: 100%;
-	-webkit-transition: -webkit-transform .2s;
-	transition: -webkit-transform .2s;
-	-o-transition: transform .2s;
 	transition: transform .2s;
-	transition: transform .2s, -webkit-transform .2s;
 	padding-left: 13px;
 
 }
 .pacers:hover{
-	-webkit-transform: scale(1.02);
-	    -ms-transform: scale(1.02);
-	        transform: scale(1.02);
+	transform: scale(1.02);
 }
 .pactext{
-	-webkit-box-flex: 2;
-	    -ms-flex: 2;
-	        flex: 2;
+	flex: 2;
 }
 .pacimage img{
 	max-height: 100%;
 	max-width: 100%;
 	margin-left: auto;
-	-o-object-fit: contain;
-	   object-fit: contain;
-	-webkit-box-flex: 1;
-	    -ms-flex: 1;
-	        flex: 1;
+	object-fit: contain;
+	flex: 1;
 }
 
 .kings{	
 	font-family: 'Aleo', serif;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	height: 200px;
 	max-width: 100%;
 	background-color: #D3D3D3;
 	border-top: none;
-	-webkit-transition: -webkit-transform .2s;
-	transition: -webkit-transform .2s;
-	-o-transition: transform .2s;
 	transition: transform .2s;
-	transition: transform .2s, -webkit-transform .2s;
 	padding-left: 13px;
 }
 .kings:hover{
-	-webkit-transform: scale(1.02);
-	    -ms-transform: scale(1.02);
-	        transform: scale(1.02);
+	transform: scale(1.02);
 }
 .kingtext{
-		-webkit-box-flex: 2;
-		    -ms-flex: 2;
-		        flex: 2;
+		flex: 2;
 }
 .kingimage img{
 	max-height: 100%;
 	max-width: 100%;
 	margin-left: auto;
-	-o-object-fit: contain;
-	   object-fit: contain;
+	object-fit: contain;
 	float: right;
 }
 .schedulecontainer {
 	border: 1px #ccc solid;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	height: 100px;
 	font-family: 'Aleo', serif;
 
 }
 .text{	
-	-webkit-box-flex: 1;	
-	    -ms-flex: 1;	
-	        flex: 1;
+	flex: 1;
 }
 .logo img{
 	margin-left: auto; 
 	max-height: 100%;
 	max-width: 100%;
-	-o-object-fit:contain;
-	   object-fit:contain;
+	object-fit:contain;
 }
 .date{ 
-	-webkit-box-flex: 1; 
-	    -ms-flex: 1; 
-	        flex: 1;
+	flex: 1;
  }
