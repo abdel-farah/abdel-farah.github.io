@@ -131,14 +131,13 @@ li a:hover{
 	object-fit: contain;
 }
 .mavsimage{
-	flex: 1;
+	float: right;
 	object-fit:contain;
 
 }
 .mavsimage img{
 	max-height: 100%;
 	max-width: 100%;
-	object-fit: contain;
 
 }
 .houston{	
@@ -161,7 +160,7 @@ li a:hover{
 	flex: 2;
 }
 .houimage{
-	flex: 1;
+	float: right;
 	object-fit:contain;
 }
 .houimage img{
@@ -187,7 +186,7 @@ li a:hover{
 	flex: 2;
 }
 .pacimage{
-	flex: 1;
+	float: right;
 	object-fit:contain;
 }
 .pacimage img{
@@ -215,7 +214,7 @@ li a:hover{
 		flex: 2;
 }
 .kingimage{
-	flex: 1;
+	float: right;
 	object-fit:contain;
 }
 .kingimage img{
