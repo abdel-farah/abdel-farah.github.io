@@ -52,16 +52,20 @@ li a:hover{
 }
 .container div{
 	border: 1px #ccc solid;
-	height: 400px;
-	width: 638.5px;
+	
 	text-align: left;
 }
-
+.col{
+	flex-direction: column;
+}
 .news{
 	background-image: url("https://i.cbc.ca/1.4989287.1548437422!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/basketball-nba-tor-atl.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	transition-duration: .5s
+	height: 400px;
+	width: 550px;
+	flex: 1;
 
 
 
@@ -82,25 +86,70 @@ li a:hover{
 }
 
 	
-
+.col {
+	display: flex;
+}
 .roster{
 	background-image: url("https://www.raptorsrepublic.com/wp-content/uploads/2018/02/Lowry2-1000x600.jpg");
 	background-size: 100% 100%;
+	height: 200px;
+	flex: 1;
+	width: 408.5px;
 	
 
 }
 .roster h1{
-	padding-top: 330px;
 	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
 }
 
-.rosterlink{
+
+.col a{
 	transition-duration: .5s;
 	transition-property: opacity;
 }
 
-.rosterlink:hover{
+.col a:hover{
+	opacity: .7;
+}
+
+.schedule{
+	background-image: url("https://assets3.sportsnet.ca/wp-content/uploads/2017/11/siakam-1040x572.jpg");
+	background-size: 100% 100%;
+	height: 213px;
+	flex: 1;
+	width: 408.5px;
+
+}
+.schedule h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+
+}
+
+.contact{
+	background-image: url("https://s.yimg.com/ny/api/res/1.2/Ym8VQVd3DrLpVEWp6lxx5g--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzQ0O2g9NTg1/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d756a435297717dfe4a02892e891ff0e");
+	background-size: 100% 100%;
+	height: 415px;
+	flex: 1;
+	width: 310px;
+
+}
+.contact h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	padding-top: 330px;
+
+}
+.col2 {	
+	display: flex;
+}
+.col2 a{
+	transition-duration: .5s;
+	transition-property: opacity;
+}
+
+.col2 a:hover{
 	opacity: .7;
 }
 
