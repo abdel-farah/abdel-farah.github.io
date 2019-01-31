@@ -80,6 +80,8 @@ li a:hover{
 .newslink{	
 	transition-duration: .5s;
 	transition-property: opacity;
+	text-decoration: none;
+
 }
 .newslink:hover{
 	opacity: .7;
@@ -107,6 +109,7 @@ li a:hover{
 .col a{
 	transition-duration: .5s;
 	transition-property: opacity;
+	text-decoration: none;
 }
 
 .col a:hover{
@@ -128,11 +131,11 @@ li a:hover{
 }
 
 .contact{
-	background-image: url("https://s.yimg.com/ny/api/res/1.2/Ym8VQVd3DrLpVEWp6lxx5g--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzQ0O2g9NTg1/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d756a435297717dfe4a02892e891ff0e");
+	background-image: url("https://images.glaciermedia.ca/polopoly_fs/1.23613163.1548480114!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_804/txes105-125-2019-233019-jpg.jpg");
 	background-size: 100% 100%;
 	height: 415px;
 	flex: 1;
-	width: 310px;
+	width: 311px;
 
 }
 .contact h1{
@@ -147,6 +150,8 @@ li a:hover{
 .col2 a{
 	transition-duration: .5s;
 	transition-property: opacity;
+	text-decoration: none;
+
 }
 
 .col2 a:hover{
@@ -273,7 +278,6 @@ li a:hover{
 	object-fit: contain;
 }
 .schedulecontainer {
-	border: 1px #ccc solid;
 	display: flex;
 	height: 100px;
 	font-family: 'Aleo', serif;
@@ -290,4 +294,21 @@ li a:hover{
 }
 .date{ 
 	flex: 1;
+
+ }
+
+.schedulecontainer2 {
+	display: flex;
+	height: 100px;
+	font-family: 'Aleo', serif;
+
+}
+.text2{	
+	flex: 1;
+	background-color: #D3D3D3;
+}
+.date2{ 
+	flex: 1;
+	background-color: #D3D3D3;
+
  }
