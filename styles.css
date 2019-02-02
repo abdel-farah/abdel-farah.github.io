@@ -51,7 +51,7 @@ li a:hover{
 
 }
 .container div{
-	border: 1px #ccc solid;
+	border: 1px #CE1141 solid;
 	
 	text-align: left;
 }
@@ -92,7 +92,6 @@ li a:hover{
 	display: flex;
 }
 .roster{
-	/*background-image: url("https://www.raptorsrepublic.com/wp-content/uploads/2018/02/Lowry2-1000x600.jpg");*/
 	background-image: url("https://www.nbcsports.com/chicago/sites/csnchicago/files/styles/article_hero_image/public/2018/11/16/lowry_1.png?itok=C9BbyZK-");
 	background-size: 100% 100%;
 	height: 200px;
@@ -161,10 +160,11 @@ li a:hover{
 
 .container2{	
 	display: flex;
-	background-color: #d9d9d9;
+	background-color: #CE1141;
 	border: 1px, #ccc, solid;
-	padding-bottom: 1000px;
 	font-family: 'Aleo', serif;
+	color: #ffffff;
+	padding-bottom: 51px;
 
 
 }
@@ -335,4 +335,14 @@ li a:hover{
   text-align: left;
   background-color: #CE1141;
   color: white;
+}
+.container3{
+	font-family: 'Aleo', serif;
+	color: #ffffff;
+	padding-top: 100px;
+	text-align: center;	
+}
+.rapslogo{
+	padding-left: 518px;
+	padding-top: 100px; 
 }
